@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .img1{
+            border: 1px solid black;
+            background: gray;
+        }
+        .img2{
+            border: 1px solid black;
+            background: gray;
+            height: 100px;
+            width: 50%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box model</h1>
+    <ul>
+        <li>The Box model is the basic building block of CSS</li>
+        <li>According to the box model concept every element on a page is a rectangular box and may have width , height, padding, borders and margins</li>
+        <div class="box"> 
+            <p>Suppose we take an image of a star and lets apply border to it and see what happens.</p>
+            <img class="img1" src="star.png" alt="star">
+            <p>We see that the border applied to star is in a form of a box.</p>
+            <P>Now if we apply padding to our image then lets see what happens</P>
+            <img class="img2" src="star.png" alt="star">
+            <p>We see that the image is inside a rectangularbox and this is what box model says that every element on the page is inside a rectangular box</p>
+        </div>
+    </ul>
+</body>
+</html>

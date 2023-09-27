@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and padding</title>
+    <style>
+        .box{
+            width: 50%;
+            height: 100px;
+            border: 2px solid black;
+        }
+        #id4{
+            margin: 50px;
+            background: orange;
+        }
+        #id5{
+            margin: 50px;
+            background-color: white;
+        }
+        #id6{
+            margin: 50px;
+            background-color: green;
+        }
+        p{
+            text-align: center;
+            border: 1px solid black;
+            
+        }
+        p.margin{
+            border: 1px solid black;
+            background:red;
+            color: white;
+            text-align: center;
+        }
+        .box2{
+            width: 50%;
+            height: 100px;
+            border: 2px solid black;
+        }
+        #id7{
+            padding: 50px;
+            background-color: orange;
+        }
+        #id8{
+            padding: 50px;
+            background-color: white;
+        }
+        #id9{
+            padding: 50px;
+            background-color: green;
+        }
+        .box3{
+            width: 50%;
+            height: 100px;
+            border: 2px solid black;
+        }
+        #id10{
+            background-color: orange;
+            padding: 50px;
+            margin: 50px;
+        }
+        #id11{
+            background-color: white;
+            padding: 50px;
+            margin: 50px;
+        }
+        #id12{
+            background-color: green;
+            padding: 50px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Margin and padding</h1>
+        <hr>
+        <h2>Margin</h2>
+        <div class="box" id="id1">I</div>
+        <div class="box" id="id2">N</div>
+        <div class="box" id="id3">D</div>
+        <p class="margin">We see that three boxes are created but there is no space between any of those boxes</p>
+       
+    </div>
+    <div>
+
+        <div class="box" id="id4">I</div>
+        <p class="margin">The distance between the borders of the two elements is termed as margin</p>
+        <div class="box" id="id5">N</div>
+        <div class="box" id="id6">D</div>
+        <p class="margin">Similarly the space between the content and the border is called padding.</p>
+        <hr>
+    </div>
+    <div>
+        <h2>padding</h2>
+        <div class="box2">I</div>
+        <div class="box2">N</div>
+        <div class="box2">D</div>
+        <p class="margin">Without paddijng it looks something like what is displayed above. lets see whats happens if we apply padding.</p>
+        <div class="box2" id="id7">I</div>
+        <div class="box2" id="id8">N</div>
+        <div class="box2" id="id9">D</div>
+        <hr>
+    </div>
+    <div>
+        <h2>This is how a margin and padding looks together.</h2>
+        <div class="box3" id="id10">I</div>
+        <div class="box3" id="id11">N</div>
+        <div class="box3" id="id12">D</div>
+    </div>
+    </body>
+</html>
